@@ -4,12 +4,17 @@
   "description": "## Instalação nvm - https://curso.dev/web/nvm-e-nodejs lts: long term support",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
     "next": "^13.1.6",
+    "prettier": "^3.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
